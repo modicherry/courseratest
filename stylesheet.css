@@ -1,0 +1,71 @@
+@chartset "UTF-8";
+
+*{
+	box-sizing: border-box;
+}
+#container {
+	width: 1200px;
+	margin: auto;
+}
+.text-center {
+	text-align: center;
+}
+.header-title {
+	margin: 40px 0 40px 0;
+}
+.box {
+	border: 1px solid #000;
+	text-align: justify;
+	padding: 20px;
+	float: left;
+	margin: 10px;
+	background: #B3ECF1;
+	position: relative;
+	padding: 44px 20px 20px 20px;
+}
+.box .title {
+	position: absolute;
+	right: 0;
+	top: 0;
+	border: 1px solid #000;
+}
+.box .lorem {
+	background: #EE3071;
+	color: #fff;
+}
+.box .ipsum {
+	background: #EE3071;
+	color: #fff;
+}
+.box .dummy {
+	background: #EE3071;
+	color: #fff;
+}
+.box .title h3 {
+	margin: 0;
+	padding: 7px 30px 7px 30px;
+}
+.box p {
+	width: 100%;
+	margin: 0;
+}
+@media (min-width: 992px) {
+	.box {
+		width: 30.33%;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.box {
+		width: 47%
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.box3 {
+		width: 97%
+	}
+}
+@media (max-width: 767px) {
+	.box {
+		width: 97%
+	}
+}
